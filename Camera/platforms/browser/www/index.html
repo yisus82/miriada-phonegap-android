@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <link rel="stylesheet" type="text/css" href="css/camera.css" />
+    <title>Camera</title>
+  </head>
+  <body>
+    <div class="header">
+      <img align="left" src="img/camera.png" />
+      <span>My Camera with Filters</span>
+    </div>
+
+    <canvas id="photo"></canvas>
+
+    <div class="button-container">
+      <button class="button button-filter">B &amp; W</button>
+      <button class="button button-filter">Negative</button>
+      <button class="button button-filter">Sepia</button>
+    </div>
+
+    <div class="button-container">
+      <button id="button-action" class="button">Take Photo</button>
+      <button id="button-gallery" class="button">Image Gallery</button>
+    </div>
+
+    <div class="footer">
+      &copy; 2019 Jesús Ángel Pérez-Roca Fernández
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/effects.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+  </body>
+</html>
